@@ -30,7 +30,7 @@ class WorkerThread(threading.Thread):
 # --- Ventana Principal de la Aplicación ---
 class AppLauncherFrame(wx.Frame):
     def __init__(self):
-        super().__init__(None, title="Python App Launcher (wxPython)", size=(800, 600))
+        super().__init__(None, title="Python App Launcher (wxPython)", size=(600, 600))
         
         panel = wx.Panel(self)
         main_sizer = wx.BoxSizer(wx.HORIZONTAL)

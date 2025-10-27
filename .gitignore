@@ -2,6 +2,7 @@
 *.tmp
 .DS_Store
 *.class
+.gitignore
 
 apps/
 __pycache__/

@@ -5,7 +5,7 @@ from pathlib import Path
 from PIL import Image
 
 # Importamos nuestra lógica central.
-from launcher_logic import find_apps, launch_app, import_app_from_zip, get_app_metadata
+from logic import find_apps, launch_app, import_app_from_zip, get_app_metadata
 
 # --- Constantes y Eventos Personalizados ---
 COVER_SIZE = (250, 250)
